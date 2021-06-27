@@ -1,4 +1,6 @@
 build:
   docker:
-    web: /streamlitapi/Dockerfile
-    api: /pythonapi/Dockerfile
+    web: /streamlitapi/Dockerfile && /pythonapi/Dockerfile
+
+run:
+  web: bundle exec puma -C config/puma.rb
