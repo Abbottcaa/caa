@@ -1,3 +1,4 @@
 build:
   docker:
     web: /streamlitapi/Dockerfile
+    api: /pythonapi/Dockerfile
